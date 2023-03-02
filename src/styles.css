@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+body{
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+    width: 100vw;
+    overflow-x: hidden;
+}
+header{
+    display: flex;
+    height: 35px;
+    padding: 0px 26px;
+
+    align-items: center;
+    justify-content: space-between;
+
+    font-weight: bold;
+    font-size: 11px;
+}
+header > img {
+   width: 77px;
+   top: 0px;
+   margin-bottom: 1px;
+}
+nav{
+    display: flex;
+    margin-right: 61px
+}
+.imagem-logo{
+    cursor: pointer;
+}
+.ul-nav{
+    display: flex;
+    list-style-type: none;
+    margin-right: 14px;
+}
+.ul-nav > li{
+    padding: 0px 16px;
+    cursor: pointer;
+}
+.menu-item:hover{
+    color: rgb(0, 178, 169);
+}
+.inicio{
+    color: rgb(0, 178, 169)
+}
+.entrar{
+    position: absolute;
+    right: 26px;
+    background-color: #F25600;
+    border: none;
+    border-radius: 2px;
+    font-size: 10px;
+    font-weight: bolder;
+    color: white;
+    padding: 3px 13px 3px 12px;
+    cursor: pointer;
+}
+.entrar:hover{
+    background-color:rgb(0, 178, 169) ;
+}
+
+
+.peca-popeyes{
+    width: 100vw;
+    height: 300px;
+}
+.seta-esquerda{
+    position: absolute;
+    right: 20px;
+    top: 200px;
+}
+
+
+.delivery{
+    text-align: center;
+    color: #FF7D00;
+}
+.delivery > h1{
+    margin-top: 41px;
+    font-size: 31px;
+    margin-bottom: 19px;
+}
+.delivery > p{
+    font-size: 10px;
+}
+
+.parceiros{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.div-delivery{
+    background-color:#FF7D00 ;
+    height: 157px;
+    width: 143px;
+    border-radius: 3px;
+
+    cursor: pointer;
+}
+.delivery-popeyes{
+    width: 88px;
+    padding-top: 16px;
+    display: block;
+    margin: auto;
+
+}
+.seta{
+    margin-top: 46px;
+    width: 25px;
+}
+
+
+
+.div-ifood{
+    background-color: rgb(237, 23, 34);
+    height: 157px;
+    width: 143px;
+    border-radius: 3px;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+.ifood-logo{
+    margin: auto;
+    display: block;
+    width: 104px;
+    padding-top: 15px;
+}
+
+
+.div-rappi{
+    background-color: rgb(253, 98, 80);
+    height: 157px;
+    width: 143px;
+    border-radius: 3px;
+
+    cursor: pointer;
+}
+.rappi-logo{
+    width: 94px;
+    margin: auto;
+    display: block;
+    padding-top: 13px;
+}
+.seta-rappi{
+    margin-top: 33px;
+    width: 25px;
+}
+
+footer{
+    background-color: #FF7D00;
+    margin-top: 95px;
+    color: white;
+    font-size: 8px;
+    text-align: center;
+    align-items: center;
+}
+.logo-rodape{
+    width: 40px;
+    padding-top: 17px;
+    margin-bottom: 3px;
+}
+
+.lista-redes{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    align-items: center;
+}
+.lista-redes > li > a > img{
+    width: 16px;
+    padding: 8px;
+}
+
+.rodape1{
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+}
+.rodape1 > p{
+    padding: 0px 14px;
+}
+
+.rodape2{
+    display: flex;
+    justify-content: center;
+}
+.rodape2 > p{
+    padding: 6px 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
